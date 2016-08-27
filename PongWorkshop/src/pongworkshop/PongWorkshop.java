@@ -7,10 +7,12 @@ class MyCanvas extends JComponent{
     @Override
     public void paint(Graphics g){
         g.drawRect(200, 480, 100, 20);
+        g.setColor(Color.blue);
         g.fillRect(200, 480, 100, 20);
         g.drawRect(100, 100, 25, 20);
+        g.setColor(Color.BLACK);
         g.fillRect(100, 100, 25, 20);
-        g.setColor(Color.yellow);
+        
         
         
                 
