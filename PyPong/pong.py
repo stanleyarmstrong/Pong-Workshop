@@ -1,4 +1,4 @@
-# Imports
+2# Imports
 from tkinter import *
 import time
 import random
@@ -15,7 +15,7 @@ class Game(object):
         self.width = 400
         self.height = 800
         self.canvas = Canvas(root, width=self.width, height=self.height, highlightthickness=0)
-    
+
     def draw(self):
         return
 
@@ -27,7 +27,7 @@ class Paddle(object):
         self.posX = game.width / 2 - self.width / 2
         self.posY = game.height / 2 - self.height / 2
         self.id = game.canvas.create_oval(self.posX, self.posY, self.posX + self.width, self.posY + self.height, fill=color)
-    
+
     def draw(self):
         return
 
