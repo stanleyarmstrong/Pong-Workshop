@@ -32,7 +32,7 @@ class MyCanvas extends JComponent{
     
 }
 
-public class PongWorkshop implements ActionListener{
+public class PongWorkshop{
 
     
     public static void main(String[] args) {
