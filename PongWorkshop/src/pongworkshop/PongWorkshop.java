@@ -1,6 +1,7 @@
 
 
 package pongworkshop;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.Toolkit;
@@ -32,7 +33,11 @@ class MyCanvas extends JComponent{
     
 }
 
+<<<<<<< HEAD
 public class PongWorkshop{
+=======
+public class PongWorkshop {
+>>>>>>> origin/master
 
     
     public static void main(String[] args) {
@@ -41,9 +46,15 @@ public class PongWorkshop{
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setTitle("The Game Pong");
         frame.getContentPane().setBackground(Color.WHITE);
+         JPanel p = new JPanel();
+        JButton b = new JButton("Action Listener");
+        p.add(b);
+        frame.add(p);
         
         frame.getContentPane().add(new MyCanvas());
         frame.setVisible(true);
+       
+        
         
         
        
