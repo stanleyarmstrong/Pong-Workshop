@@ -33,11 +33,9 @@ class MyCanvas extends JComponent{
     
 }
 
-<<<<<<< HEAD
+
 public class PongWorkshop{
-=======
-public class PongWorkshop {
->>>>>>> origin/master
+
 
     
     public static void main(String[] args) {
