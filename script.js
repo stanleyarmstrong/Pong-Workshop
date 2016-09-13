@@ -10,27 +10,27 @@ function draw(){
   background(0,125,255);
   var circle = ellipse(250,250,50);
   rect(250,490,100,10);
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+//<<<<<<< HEAD
+//=======
+//<<<<<<< HEAD
 
 
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
+//=======
+//<<<<<<< HEAD
+//>>>>>>> origin/master
   if(keyIsPressed === true){
     circle.accelerationY = 10;
   }
 
-<<<<<<< HEAD
-=======
-=======
+//<<<<<<< HEAD
+//=======
+//=======
   rect(250,10,100,10);
   ellipse.setColor(0,0,0);
   ellipse.fill(250,250,50);
->>>>>>> origin/master
->>>>>>> origin/master
->>>>>>> origin/master
+//>>>>>>> origin/master
+//>>>>>>> origin/master
+//>>>>>>> origin/master
 
 
 
